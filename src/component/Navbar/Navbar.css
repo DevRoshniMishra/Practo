@@ -1,0 +1,17 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+nav{
+    width:100%;
+}
+.nav-item > a{
+    font-size:14px;
+    margin-left:12px;
+}
+.btn{
+    margin-left:20px;
+    width:100px;
+    
+}

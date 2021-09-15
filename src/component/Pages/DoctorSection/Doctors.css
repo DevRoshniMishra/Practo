@@ -1,0 +1,123 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.doctor_search{
+    margin-top:10px;
+}
+.search_location{
+    width: 350px;
+    height: 40px;
+    outline: none;
+    border-color: gray;
+    border: 1px solid lightgray;
+    text-align: center;
+}
+.dummy-text{
+    font-size:16px;
+    color: #b9a0a0;
+    font-weight: bold;
+}
+.dummy-para{
+    font-size: 16px;
+    margin-top: -10px;
+    color: gray;
+}
+.parent-divtext{
+    display:flex;
+}
+.badge-icon{
+    width: 40px;
+    margin-top: -30px;
+    margin-left: 10px;
+}
+.parent-doc{
+    display:flex;
+   margin-top:50px;
+    
+}
+.aline-lists{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #787887;
+
+}
+.dummy-image > img{
+    width:250px;
+    height:250px;
+    border-radius: 50%;
+}
+.details-list{
+    list-style-type: none;
+    margin-left:20px;
+}
+.name{
+    font-size:25px;
+    font-weight: bold;
+}
+.occupation{
+    font-size: 14px;
+    color: #787887;
+    margin-top:4px;
+}
+.sticker > img{
+    width: 80px;
+    margin-top: -95px;
+}
+.appointment_section{
+    margin-top:75px;
+}
+.appointment_btn{
+    width: 243px;
+    height: 60px;
+    background-color: #14bef0;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+}
+.slot{
+    margin-bottom:230px;
+}
+.time-slots{
+    margin-top:-200px;
+    margin-bottom: 100px;
+}
+.time-slots > button{
+    margin-top:10px;
+    font-size:12px;
+}
+.search-btn{
+    width:350px;
+    margin-top:10px;
+}
+.card-section{
+    box-shadow: 0px 0px 4px 1px #827777;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top:70px;
+}
+.card-img{
+    width:120px;
+    margin-top:50px;
+}
+
+.profile-card{
+    border:1px solid black;
+    padding:10px;
+    margin-top:50px;
+}
+.highlighted-pt{
+    margin-left:20px;
+    color:gray;
+    font-weight: bold;
+    margin-top:5px 
+}
+.badge > img{
+    width:25px;
+}

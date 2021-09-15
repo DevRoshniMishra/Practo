@@ -1,0 +1,199 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.main_conrainer{
+    background-image: url('../../assets/background-image.svg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:100%;
+    height:500px; 
+    margin-top:20px;
+    text-align: center;
+}
+.banner-heading{
+    color:white;
+    font-size:40px;
+    padding:30px;
+}
+.banner-title{
+    color:white;
+    font-size:25px;
+    font-weight:bold;
+}
+.input-container_location{
+    width:25%;
+    height:40px;
+    outline:none;
+    text-align: center;
+    border:none;
+}
+.input-container_service{
+    width:25%;
+    height:40px;
+    outline:none;
+    text-align: center;
+    border:none;
+}
+.shortcut_links{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.shortcut_links > li{
+    font-size:14px;   
+    margin-left:25px;
+    margin-top:12px;
+    font-weight: 600;
+}
+.shortcut_links > li > a{
+    color:#807d7d;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+}
+.cards-section{
+    display:flex;
+    justify-content: center;
+    margin-top:150px;
+  
+}
+.cards>p>i{
+    font-size:30px;
+    color:white;
+    margin-left:20px;
+}
+.cards > a{
+    font-size:15px;
+    color:#807d7d;
+    text-decoration: none;
+    margin-left:20px;
+}
+@media screen and (max-width:360px) {
+.input-container_location{
+    max-width: 85%;
+    width: 100%;
+}
+.input-container_service{
+    max-width: 85%;
+    width: 100%;
+    margin-top:10px;
+}
+.shortcut_links{
+    display: block;
+}
+  }
+  *{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.safety-section{
+    margin-top:50px;
+}
+.heading{
+    font-size:40px;
+    color: #756767;
+    margin-top:35px;
+}
+.service-lists{
+    margin-top:40px;
+}
+.service-lists > li{
+    font-size:20px;
+    margin-top:10px;
+    list-style-type:square;
+}
+.highlighted_text{
+    color:red;
+}
+.btn-more{
+    width:200px;
+    height:50px;
+    color:white;
+    background-color:lightseagreen;
+    border:none;
+    outline:none;
+    font-size:20px;
+    border-radius: 6px;
+}
+.doctorbanner{
+    background-color:#28328c;
+}
+.doctorbanner1{
+    background-color:#28328c;
+    height:660px;
+}
+.doctorbanner > img{
+    max-width: 100%;
+}
+ .doctorcard > img{
+    max-width: 100%;
+    margin-top:50px;
+}
+.security-cards{
+    background-color:#f3ecec;
+    margin-top:50px;
+    padding:50px;
+}
+.doctorcard{
+    max-width: 100%;
+    margin-top:50px;
+}
+.doctorcard-left{
+    padding:40px;
+}
+.doctorcard-heading{
+    font-size:30px;
+    margin-top:50px;
+}
+.highlighted-text{
+    color:red;
+    font-size:35px;
+    font-weight: bold;
+}
+.list-items > li{
+    margin-top:20px;
+    list-style: square;
+}
+.btn-doctor{
+    border: none;
+    outline: none;
+    color: white;
+    background-color: lightseagreen;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 7px;
+    width:300px;
+    height:50px;
+}
+.form-details{
+    margin-top:40px;
+}
+.highlighted-number{
+    border:1px solid lightgray;
+   padding:12px;
+}
+.number-input{
+    width: 285px;
+    height: 47px;
+    text-align: center;
+    outline: none;
+    border: 1px solid lightgray;
+}
+.btn-sms{
+    width: 235px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: lightseagreen;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 7px;
+}
+.paycard > img{
+    width: 160px;
+    margin-left: 40px;
+    margin-top: 40px;
+}

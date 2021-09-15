@@ -1,0 +1,27 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.footer-section{
+    background-color:#28328c;
+    margin-top:150px;
+    padding:50px;
+}
+.quick_links{
+    margin-top:20px;
+}
+.quick_links > p{
+    font-size:25px;
+    color:white;
+    font-weight: 600;
+}
+.quick_links > ul > li{
+    font-size:15px;
+    list-style-type:none;
+    text-decoration: none;
+}
+.quick_links > ul > li > a{
+    color:white;
+    text-decoration: none;
+}
